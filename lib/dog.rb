@@ -20,7 +20,7 @@ class Dog
   def self.print_all
     @@all
     @@all.each do |dog, index|
-    names = dog[index].join(" ")
+    names = dog.join(" ")
     puts names
   
   end
