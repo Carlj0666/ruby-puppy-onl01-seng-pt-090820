@@ -3,4 +3,4 @@ class Dog
 end
 
 
-pluto = Dog.new("Pluto")
+pluto = Dog.new
