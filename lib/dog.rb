@@ -19,7 +19,7 @@ class Dog
   
   def self.print_all
     @@all
-    @@all.each do |dog, index|
+    @@all.each do |dog|
     puts dog.name
   
   end
