@@ -20,6 +20,7 @@ class Dog
 
     @@all.each do |dog|
     puts "#{@@all[name]}"
+  end
 end
 
 end
