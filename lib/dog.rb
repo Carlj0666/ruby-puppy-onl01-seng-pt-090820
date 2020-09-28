@@ -1,4 +1,4 @@
-
+require"pry"
 
 class Dog
   @@all = []
@@ -19,7 +19,7 @@ class Dog
   def self.print_all
     @@all
     @@all.each do |dog, name|
-    puts "#{@@dog[name]"
+    puts "#{@@dog[name]}"
   end
 end
 
