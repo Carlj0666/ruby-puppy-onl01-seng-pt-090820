@@ -16,10 +16,10 @@ class Dog
     @@all
   end
   
-  def self.print_all(@@all)
+  def self.print_all
 
-    # @@all.each do |dog|
-    # puts @@all[name]
+    @@all.each do |dog|
+    puts @@all[name]
   end
 
 end
